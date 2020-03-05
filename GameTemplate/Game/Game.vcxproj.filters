@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{aa2dff80-cc46-4aaa-9c9e-7784c2a0cdf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\modelData">
+      <UniqueIdentifier>{a27dfd5d-af93-4623-b084-aad00b7739c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{c57b7107-f9f3-4b72-8f3e-8644593ed533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{b7a9a0ab-a792-43fe-a5a7-760b8c976aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\animation">
+      <UniqueIdentifier>{d83ac002-5cd8-4ff4-977a-e7b5ebce5263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="level">
+      <UniqueIdentifier>{73eacaf4-a5db-4539-ab55-83b9c5d4807c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HID">
+      <UniqueIdentifier>{bbdeed04-d9d3-4ff9-bb44-9d888be6899a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{39e7f303-3dac-4bde-bedf-33a5497f262e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{1eed4cab-11aa-4e90-960a-a01360c5a392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{48b58c60-bbe2-40d8-9d2f-e81d065b6820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameObject">
+      <UniqueIdentifier>{ff96b4e1-af41-4915-a095-a586bee289c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\modelData\stage">
+      <UniqueIdentifier>{da7f8d16-2ac5-4c5d-8962-dba3988b8429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="culling">
+      <UniqueIdentifier>{328c16a9-146d-4449-967f-b51ce527fa3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{4812258f-2ff1-4ad6-9b98-d90fd70fb80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\sprite">
+      <UniqueIdentifier>{f5d87536-3cca-4dbc-9d5e-9fafb7e8a3e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="math\Vector.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\kMath.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Matrix.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\GraphicsEngine.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\SkinModel.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\SkinModelDataManager.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Skeleton.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\SkinModelEffect.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Shader.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\ShaderResources.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\animation\Animation.cpp">
+      <Filter>graphics\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\animation\AnimationClip.cpp">
+      <Filter>graphics\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\animation\AnimationPlayController.cpp">
+      <Filter>graphics\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="HID\Pad.cpp">
+      <Filter>HID</Filter>
+    </ClCompile>
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Camera.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\RigidBody.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\Physics.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\MeshCollider.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\CapsuleCollider.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\PhysicsStaticObject.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="character\CharacterController.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="level\Level.cpp">
+      <Filter>level</Filter>
+    </ClCompile>
+    <ClCompile Include="level\MapChip.cpp">
+      <Filter>level</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="gameObject\ysGameObject.cpp">
+      <Filter>gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject\ysGameObjectManager.cpp">
+      <Filter>gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Sprite.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Sprite_Reserve.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameData.cpp" />
+    <ClCompile Include="Enemy_asigaru.cpp" />
+    <ClCompile Include="graphics\SkinModelRender.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\SkinModelData.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="physics\PhysicsObjectBase.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\PhysicsGhostObject.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\BoxCollider.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="physics\SphereCollider.cpp">
+      <Filter>physics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\RenderTarget.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWireframe.cpp" />
+    <ClCompile Include="Wepon_ghost.cpp" />
+    <ClCompile Include="sound\SoundEngine.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\SoundSource.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\WaveFile.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\WaveFileBank.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Enemy_Busyo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="math\Vector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\kMath.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Matrix.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\GraphicsEngine.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\SkinModel.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\SkinModelDataManager.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Skeleton.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\SkinModelEffect.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Shader.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\SkinModelShaderConst.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\ShaderResources.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\animation\Animation.h">
+      <Filter>graphics\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\animation\AnimationClip.h">
+      <Filter>graphics\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\animation\AnimationPlayController.h">
+      <Filter>graphics\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="HID\Pad.h">
+      <Filter>HID</Filter>
+    </ClInclude>
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Camera.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\RigidBody.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\Physics.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\ICollider.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\MeshCollider.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\CapsuleCollider.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\CollisionAttr.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\PhysicsStaticObject.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="character\CharacterController.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="level\Level.h">
+      <Filter>level</Filter>
+    </ClInclude>
+    <ClInclude Include="level\MapChip.h">
+      <Filter>level</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="gameObject\ysGameObject.h">
+      <Filter>gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject\ysGameObjectManager.h">
+      <Filter>gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Sprite.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Sprite_Reserve.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="Enemy_asigaru.h" />
+    <ClInclude Include="graphics\SkinModelRender.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\SkinModelData.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="physics\PhysicsObjectBase.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\PhysicsGhostObject.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\BoxCollider.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="physics\SphereCollider.h">
+      <Filter>physics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\RenderTarget.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugWireframe.h" />
+    <ClInclude Include="Wepon_ghost.h" />
+    <ClInclude Include="sound\SoundEngine.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\SoundSource.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\WaveFile.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\WaveFileBank.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Enemy_Busyo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\modelData\busyo.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\stage.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\asigaru.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\asigaru_Rowpori.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\unityChan.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\musou_stage.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\enemy_busyo.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\modelData\protoenemy_busyo.fbx">
+      <Filter>Assets\modelData</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\modelData\Title.png">
+      <Filter>Assets\modelData</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="Assets\sprite\Title.png">
+      <Filter>Assets\sprite</Filter>
+    </ImageContentTask>
+  </ItemGroup>
+</Project>
