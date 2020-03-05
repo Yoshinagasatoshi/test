@@ -188,3 +188,5 @@ void Game::InitCamera()
 	g_camera2D.SetTarget(CVector3::Zero());
 	g_camera2D.Update();
 }
+
+//コメントとか、処理とかを書く。
